@@ -29,6 +29,9 @@ func bar() {
 func returnvalues() {
 
 	n, err := fmt.Println("this is an amazing piece of code")
+
+	// if you dont want to catch err, replace it with _(void)
+	// n, _ := fmt.Println("this is an amazing piece of code")
 	fmt.Println("these the bytes written", n)
 	fmt.Println("the error code is", err)
 
